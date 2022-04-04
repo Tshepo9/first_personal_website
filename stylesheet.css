@@ -72,7 +72,7 @@ a:hover {
   position: relative;
   max-width: 800px; 
   margin: 5% auto; 
-  box-shadow: -5px -5px #0982f1;
+  box-shadow: 10px 10px 10px 10px rgb(128, 120, 120);
   
 
   
@@ -87,4 +87,45 @@ a:hover {
   width: 100%; 
   padding: 20px; 
   height: fit-content;
+}
+
+#icons{
+  position: relative;
+  left: 15%;
+  width: 30%;
+  min-height: 50%;
+  box-shadow: 10px 10px 10px 10px rgb(128, 120, 120);
+  padding: 3%;
+
+}
+
+#icons a{
+  text-decoration: none;
+  color: black;
+}
+#icons a:hover{
+  color:#0982f1;
+}
+
+#form{
+  position:absolute;
+  right: 10%;
+  top:45%;
+  font-size: 1.8em;
+  box-shadow: 10px 10px 10px 10px rgb(128, 120, 120);
+  width: 25%;
+  padding-left: 5%;
+ 
+ 
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color:#0982f1;
+
+}
+
+input:active{
+  color:rgb(65, 235, 65);
 }
