@@ -129,3 +129,104 @@ input {
 input:active{
   color:rgb(65, 235, 65);
 }
+
+/* for smaller devices*/
+@media screen and (max-width: 800px) {
+
+  #title{
+    color: #0988ff;
+    position:absolute;
+    left: 22%;
+    top:0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-shadow: 3px 3px rgb(5, 4, 4);
+  }
+
+  #logo{
+    width:20%;
+     height:20%;
+  }
+  
+  #nav{
+
+    position:relative;
+    left:0%;
+    top:0%;
+    width: fit-content;
+   
+}
+
+li {
+  float: left;
+  border-radius: 5px;
+  border-bottom: solid;
+  border-color: #0982f1;
+  color: rgb(8, 8, 8);
+  font-size: 1.0em;
+   cursor: pointer;
+     margin: 19px;
+ 
+}
+
+#page{
+ 
+   position: sticky;
+   top:20%;
+   left: 5%;
+   margin-bottom: 15%;
+   
+  
+}
+
+#para{
+  position: absolute;
+  margin-left: 50%;
+  font-size: 0.6em; 
+  top: 25%;
+  margin-top: 20%;
+  left: 10%;
+}
+#pic{ 
+  
+  width:25%; 
+  height:25%;
+  border-radius: 40%;
+}
+
+#cap{
+margin-left: 50%;
+
+}
+
+
+.container {
+  position: relative;
+  margin-top: 20%;
+  max-width: 800px; 
+  box-shadow: 10px 10px 10px 10px rgb(128, 120, 120);
+  
+}
+
+#icons{
+  position: absolute;
+  top:20%;
+  left: 5%;
+  width: 85%;
+  min-height: 80%;
+  box-shadow: 10px 10px 10px 10px rgb(128, 120, 120);
+  padding: 3%;
+  font-size: 1.5em;
+
+}
+#form{
+  position:absolute;
+  left:10%;
+  top:125%;
+  font-size: 1.8em;
+  box-shadow: 10px 10px 10px 10px rgb(128, 120, 120);
+  width: 70%;
+  padding-left: 5%;
+ 
+ 
+}
+}
